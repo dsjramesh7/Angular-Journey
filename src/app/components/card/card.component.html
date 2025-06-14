@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
+        <!-- interpolation/ Angular-Expression  -->
         <div class="card shadow-lg">
           <div class="card-body">
             <div class="d-flex justify-content-center">
@@ -12,10 +13,17 @@
                 class="image-fluid"
               />
             </div>
+            <p class="h3">Date: {{ todayDate() }}</p>
+            <p class="h4">Time: {{ nowTime() }}</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              repellat recusandae laborum libero velit ratione.
+              {{ interpolationLearningSomething }}
             </p>
+
+            <p>
+              {{ interpolationLearningSomething.toUpperCase() }}
+            </p>
+            <p>kill Count: {{ 69 + 69 }}</p>
+            <p>saved: {{ 69 }}</p>
             <button
               type="button"
               class="btn btn-danger d-flex align-items-center gap-2"
