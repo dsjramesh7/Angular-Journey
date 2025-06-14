@@ -13,6 +13,9 @@ export class CardComponent implements OnInit {
   public interpolationLearningSomething: string =
     'luffy pirate swordman deception';
 
+  public imageURL: string =
+    'https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+
   public todayDate(): string {
     return new Date().toLocaleDateString();
   }

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <!-- interpolation/ Angular-Expression  -->
+        <!-- interpolation/ Angular-Expression Data Binding  -->
         <div class="card shadow-lg">
           <div class="card-body">
             <div class="d-flex justify-content-center">
@@ -24,6 +24,27 @@
             </p>
             <p>kill Count: {{ 69 + 69 }}</p>
             <p>saved: {{ 69 }}</p>
+            <button
+              type="button"
+              class="btn btn-danger d-flex align-items-center gap-2"
+            >
+              Book<i class="fa-brands fa-github text-black fa-2x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <!-- Prop/Property Data Binding  -->
+              <img
+                height="200"
+                [src]="imageURL"
+                alt="luffy"
+                class="image-fluid"
+              />
+            </div>
             <button
               type="button"
               class="btn btn-danger d-flex align-items-center gap-2"
