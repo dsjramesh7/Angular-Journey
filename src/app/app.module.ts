@@ -7,6 +7,7 @@ import { CardComponent } from './components/card/card.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { GreetComponent } from './components/greet/greet.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GreetComponent } from './components/greet/greet.component';
     CardComponent,
     NavbarComponent,
     CounterComponent,
-    GreetComponent
+    GreetComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
