@@ -1,0 +1,17 @@
+<div>
+  <h1>{{ greetingMessage }}</h1>
+  <div class="d-flex gap-3">
+    <button (click)="updateMessage('GoodMorning Mina')" class="btn btn-primary">
+      morning
+    </button>
+    <button
+      (click)="updateMessage('GoodAfternoon Mina')"
+      class="btn btn-danger"
+    >
+      afternoon
+    </button>
+    <button (click)="updateMessage('GoodEvening Mina')" class="btn btn-success">
+      evening
+    </button>
+  </div>
+</div>
