@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { FormAutoComponent } from './components/form-auto/form-auto.component';
 import { SmsAppComponent } from './components/sms-app/sms-app.component';
 import { ShowPasswordComponent } from './components/show-password/show-password.component';
+import { ThemeComponent } from './components/theme/theme.component';
+import { AuthUserComponent } from './components/auth-user/auth-user.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ShowPasswordComponent } from './components/show-password/show-password.
     FormComponent,
     FormAutoComponent,
     SmsAppComponent,
-    ShowPasswordComponent
+    ShowPasswordComponent,
+    ThemeComponent,
+    AuthUserComponent
   ],
   imports: [
     BrowserModule,
