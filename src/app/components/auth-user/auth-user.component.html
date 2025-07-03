@@ -1,1 +1,9 @@
-<p>auth-user works!</p>
+<div>
+    <h1 *ngIf="isLoggedIn">Welcome IronMan</h1>
+    <h1 *ngIf="!isLoggedIn">Thank You</h1>
+
+    <div class="d-flex gap-3">
+        <button *ngIf="!isLoggedIn" (click)="loginUser()" class="btn btn-success">Login</button>
+        <button *ngIf="isLoggedIn" (click)="logOutUser()" class="btn btn-danger">LogOut</button>
+    </div>
+</div>
