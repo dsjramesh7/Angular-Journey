@@ -12,6 +12,7 @@ import { FormComponent } from './components/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { FormAutoComponent } from './components/form-auto/form-auto.component';
 import { SmsAppComponent } from './components/sms-app/sms-app.component';
+import { ShowPasswordComponent } from './components/show-password/show-password.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SmsAppComponent } from './components/sms-app/sms-app.component';
     ProductItemComponent,
     FormComponent,
     FormAutoComponent,
-    SmsAppComponent
+    SmsAppComponent,
+    ShowPasswordComponent
   ],
   imports: [
     BrowserModule,
