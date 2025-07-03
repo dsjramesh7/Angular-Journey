@@ -11,6 +11,7 @@ import { ProductItemComponent } from './components/product-item/product-item.com
 import { FormComponent } from './components/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { FormAutoComponent } from './components/form-auto/form-auto.component';
+import { SmsAppComponent } from './components/sms-app/sms-app.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormAutoComponent } from './components/form-auto/form-auto.component';
     GreetComponent,
     ProductItemComponent,
     FormComponent,
-    FormAutoComponent
+    FormAutoComponent,
+    SmsAppComponent
   ],
   imports: [
     BrowserModule,

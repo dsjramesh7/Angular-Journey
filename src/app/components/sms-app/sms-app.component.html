@@ -1,0 +1,9 @@
+<div class="p-5">
+    <h1>SMS App</h1>
+    <form>       
+        <textarea  name="sentence" id="" placeholder="Enter Your Text Here" class="form-control p-2" rows="5" [(ngModel)]="message" [maxlength]="maxCharCount"></textarea>
+    </form>
+    <div>
+        <p>The Characters Remaining: <span class="fw-bold">{{message.length}}/{{maxCharCount}}</span></p>
+    </div>
+</div>
