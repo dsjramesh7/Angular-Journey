@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+
+  // all code here
+  public userName:string = ""
+
+  public updateName(e:any):void{
+    this.userName = e.target.value;
   }
 
 }
