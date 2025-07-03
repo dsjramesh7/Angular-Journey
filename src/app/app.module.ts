@@ -10,6 +10,7 @@ import { GreetComponent } from './components/greet/greet.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { FormComponent } from './components/form/form.component';
 import { FormsModule } from '@angular/forms';
+import { FormAutoComponent } from './components/form-auto/form-auto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     CounterComponent,
     GreetComponent,
     ProductItemComponent,
-    FormComponent
+    FormComponent,
+    FormAutoComponent
   ],
   imports: [
     BrowserModule,
