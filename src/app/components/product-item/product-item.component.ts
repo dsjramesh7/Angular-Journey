@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-<<<<<<< HEAD
 interface Product{
   sno:string;
   pname:string;
@@ -10,15 +9,12 @@ interface Product{
 
 }
 
-=======
->>>>>>> 922ae454d5a58560bd2238e839102ca346a69863
 @Component({
   selector: 'app-product-item',
   templateUrl: './product-item.component.html',
   styleUrls: ['./product-item.component.css']
 })
 export class ProductItemComponent implements OnInit {
-<<<<<<< HEAD
   //my code 
   public product:Product={
     sno: "AA101",
@@ -27,17 +23,12 @@ export class ProductItemComponent implements OnInit {
     qty:2,
     price:1500
   }
-=======
->>>>>>> 922ae454d5a58560bd2238e839102ca346a69863
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-<<<<<<< HEAD
   
 
-=======
->>>>>>> 922ae454d5a58560bd2238e839102ca346a69863
 }
